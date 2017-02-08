@@ -1,0 +1,8 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[@api.multi]]></content>
+    <tabTrigger>api-multi</tabTrigger>
+    <scope>source.python</scope>
+    <description>api multi dec. Odoo</description>
+</snippet>

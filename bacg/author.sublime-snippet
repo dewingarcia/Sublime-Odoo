@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+"author": "${1:$TM_ORG_AUTHOR}",
+$0]]></content>
+    <tabTrigger>author_mod</tabTrigger>
+    <scope>source.python</scope>
+    <description>auth of module</description>
+</snippet>

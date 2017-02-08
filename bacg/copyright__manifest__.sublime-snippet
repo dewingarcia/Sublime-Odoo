@@ -2,16 +2,14 @@
 
 <snippet>
     <content><![CDATA[
-# -*- coding: utf-8 -*-
 ##############################################################################
-# For copyright and license notices, see $TM_MAINFILEODOO file in module root
-# directory
+#
+#    Copyright (C) ${1:$TM_YEAR} $TM_ORG_NAME ($TM_ORG_WEB)
+#    All Rights Reserved.
+#
 ##############################################################################
-
-from odoo import fields, models
-
-$0]]></content>
-    <tabTrigger>import_base</tabTrigger>
+]]></content>
+    <tabTrigger>copyright__manifest__</tabTrigger>
     <scope>source.python</scope>
-    <description>Import Base Odoo</description>
+    <description>(C)__manifest__</description>
 </snippet>
