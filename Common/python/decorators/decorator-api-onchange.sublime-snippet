@@ -1,0 +1,8 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[@api.onchange['${1:field1}', $0]]]></content>
+    <tabTrigger>api-onchange</tabTrigger>
+    <scope>source.python</scope>
+    <description>api onchange dec. Odoo</description>
+</snippet>

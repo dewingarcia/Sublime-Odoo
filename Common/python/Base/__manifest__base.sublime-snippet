@@ -1,0 +1,40 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+# -*- coding: utf-8 -*-
+
+##############################################################################
+#
+#    Copyright (C) ${1:$TM_YEAR} $TM_ORG_NAME ($TM_ORG_WEB)
+#    All Rights Reserved.
+#
+##############################################################################
+{
+    'name': '${3:Module name}',
+    'summary': '${4:Module summary}',
+    'version': '${5:0.1}',
+    'category': '${6:Extra Tools}',
+    'website': '${7:$TM_ORG_WEB}',
+    'author': '${2:$TM_ORG_AUTHOR}',
+    'license': 'Other proprietary',
+    'application': True,
+    'installable': True,
+    'external_dependencies': {
+        'python': [],
+        'bin': [],
+    },
+    'depends': [
+        '${8:base}',
+    ],
+    'data': [
+        # '${9:views/some_model_view.xml}',
+    ],
+    'qweb': [
+    ]
+}
+]]></content>
+    <tabTrigger>__manifest__</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo __manifest__ Base</description>
+</snippet>

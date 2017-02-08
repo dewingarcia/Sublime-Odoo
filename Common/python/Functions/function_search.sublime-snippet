@@ -1,0 +1,13 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:domain} = [
+    ('${2:state}', '=', '${3:done}'),$0
+]
+${4:model_name} = self.env['${5:Odoomodel}.${6:name}'].search($1)
+]]></content>
+    <tabTrigger>search</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo Search Function</description>
+</snippet>

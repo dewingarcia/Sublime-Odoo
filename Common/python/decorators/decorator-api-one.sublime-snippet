@@ -1,0 +1,8 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[@api.one]]></content>
+    <tabTrigger>api-one</tabTrigger>
+    <scope>source.python</scope>
+    <description>api one dec. Odoo</description>
+</snippet>

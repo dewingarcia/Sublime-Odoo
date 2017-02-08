@@ -1,0 +1,8 @@
+<!-- Odoo XML Snippets -->
+
+<snippet>
+    <content><![CDATA[attrs="{$0}"]]></content>
+    <tabTrigger>attrs</tabTrigger>
+    <scope>text.xml</scope>
+    <description>attrs Base</description>
+</snippet>

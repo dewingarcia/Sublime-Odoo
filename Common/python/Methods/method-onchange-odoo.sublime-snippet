@@ -1,12 +1,22 @@
 <!-- Odoo Python Snippets -->
 
 <snippet>
-    <content><![CDATA[def ${1:onchange_name}(self, cr, uid, ids, ${2:field_name}, context=None):
-${3:field_change} = False
-if ${2:field_name}:
-    ${3:field_change} = self.pool.get('${4:model.name}').browse(cr, uid, ${2:field_name}, context=context).${3:field_change}
-return {'value': {'${3:field_change}': ${3:field_change}}}$0]]></content>
-    <tabTrigger>onchange</tabTrigger>
+    <content><![CDATA[@api.onchange("${10:field1}", "${20:field2}", )
+def _onchange_${30:field}(self):
+    vals = {}
+    # Remove warning if necessary
+    vals['warning'] = {
+        'title': _('$40')
+        'message': _('$50')
+    }
+    # Remove domain if necessary
+    vals['domain'] = {
+        "${60:field}": [("$61", "${62:=}", ${63:value})],
+    }
+    return vals$0
+
+    ]]></content>
+    <tabTrigger>api</tabTrigger>
     <scope>source.python</scope>
-    <description>Method on_change Odoo</description>
+    <description>Method onchange Odoo</description>
 </snippet>
