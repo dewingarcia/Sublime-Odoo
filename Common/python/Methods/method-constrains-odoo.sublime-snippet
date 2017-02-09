@@ -1,0 +1,14 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+@api.constrains("${10:field_name}", $0)
+def _check_$10(self):
+    if self.$10:
+        raise Warning(_('Error! ${30:Enter a Message Error}'))
+
+    ]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method constrains Odoo</description>
+</snippet>

@@ -2,7 +2,7 @@
 
 <snippet>
     <content><![CDATA[
-@api.depends['${1:field1}', $0]
+@api.depends('${1:field1}', $0)
 ]]></content>
     <tabTrigger>api-depends</tabTrigger>
     <scope>source.python</scope>

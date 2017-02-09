@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+@api.constrains('${1:field1}', $0)
+]]></content>
+    <tabTrigger>api-constrains</tabTrigger>
+    <scope>source.python</scope>
+    <description>api constrains dec. Odoo</description>
+</snippet>
