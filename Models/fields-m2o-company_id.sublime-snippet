@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+company_id = fields.Many2one('res.company', string='${1:Company}', ${2:required=True, }default=lambda self: self.env.user.company_id)$0
+]]></content>
+    <tabTrigger>fields.m2o.company</tabTrigger>
+    <scope>source.python</scope>
+    <description>m2o company field </description>
+</snippet>

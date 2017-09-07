@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-invisible='1'
+'invisible': [('${1:field_name}', '${2:=}', ${3:False})]
 ]]></content>
-    <tabTrigger>invisible</tabTrigger>
+    <tabTrigger>invisible-in-attrs</tabTrigger>
     <scope>text.xml</scope>
     <description>attrs Base</description>
 </snippet>

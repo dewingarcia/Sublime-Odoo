@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+product_id = fields.Many2one('product.${1:product}', '${2:Product}', ${3:required=True})$0
+]]></content>
+    <tabTrigger>fields.m2o.product</tabTrigger>
+    <scope>source.python</scope>
+    <description>m2o product field </description>
+</snippet>

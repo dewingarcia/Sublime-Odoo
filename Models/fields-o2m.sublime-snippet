@@ -4,7 +4,7 @@
     <content><![CDATA[
 ${1:o2m_field_name}_ids = fields.One2many(
     '${2:source.model.name}',
-    '${3:o2m_field_id'},
+    '${3:o2m_field_id}',
     string='${4:Field Label}',
 )$0
 ]]></content>

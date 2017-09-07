@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+ondelete='${1:cascade/restrict/set null}${1/(c$)|(r$)|(s$)|(ca$)|(re$)|(se$)|(cas$)|(res$)|(set$)|.*/?1:ascade:?2:estrict:?3:et null:?4:scade:?5:strict:?6:t null:?7:cade:?8:trict:?9: null/i}'$0
+]]></content>
+    <tabTrigger>ondelete</tabTrigger>
+    <scope>source.python</scope>
+    <description>ondelete attribute (OERP)</description>
+</snippet>
