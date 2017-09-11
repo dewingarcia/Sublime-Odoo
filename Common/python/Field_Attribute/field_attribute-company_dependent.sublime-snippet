@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+company_dependent=${1:True}${1/(T$)|(F$)|(Tr$)|(Fa$)|(Tru$)|(Fal$)|(Fals$)|.*/?1:rue:?2:alse:?3:ue:?4:lse:?5:e:?6:se:?7:e/i}$0
+]]></content>
+    <tabTrigger>company_dependent</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo Field Attr.company_dependent</description>
+</snippet>

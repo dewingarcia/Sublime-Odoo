@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-readonly=True, $0
+readonly=${1:True}${1/(T$)|(F$)|(Tr$)|(Fa$)|(Tru$)|(Fal$)|(Fals$)|.*/?1:rue:?2:alse:?3:ue:?4:lse:?5:e:?6:se:?7:e/i}$0
 ]]></content>
     <tabTrigger>readonly</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo Field Attribute readonly</description>
+    <description>Odoo Field Attr.readonly</description>
 </snippet>

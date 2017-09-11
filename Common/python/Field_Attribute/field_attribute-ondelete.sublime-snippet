@@ -6,5 +6,5 @@ ondelete='${1:cascade/restrict/set null}${1/(c$)|(r$)|(s$)|(ca$)|(re$)|(se$)|(ca
 ]]></content>
     <tabTrigger>ondelete</tabTrigger>
     <scope>source.python</scope>
-    <description>ondelete attribute (OERP)</description>
+    <description>Odoo Field Attr.ondelete</description>
 </snippet>

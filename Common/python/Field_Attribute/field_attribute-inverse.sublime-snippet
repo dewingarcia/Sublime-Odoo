@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-compute=${1:_method_name}, $0
+inverse=${1:_method_name}, $0
 ]]></content>
-    <tabTrigger>compute</tabTrigger>
+    <tabTrigger>inverse</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo Field Attr.compute</description>
+    <description>Odoo Field Attr.inverse</description>
 </snippet>

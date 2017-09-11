@@ -6,5 +6,5 @@ related='${1:field_id}.${2:field_name}',$0
 ]]></content>
     <tabTrigger>related</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo Field Attribute related</description>
+    <description>Odoo Field Attr.related</description>
 </snippet>

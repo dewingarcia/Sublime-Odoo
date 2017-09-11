@@ -2,9 +2,9 @@
 
 <snippet>
     <content><![CDATA[
-translate=True,$0
+translate=${1:True}${1/(T$)|(F$)|(Tr$)|(Fa$)|(Tru$)|(Fal$)|(Fals$)|.*/?1:rue:?2:alse:?3:ue:?4:lse:?5:e:?6:se:?7:e/i}$0
 ]]></content>
     <tabTrigger>translate</tabTrigger>
     <scope>source.python</scope>
-    <description>translate attribute (OERP)</description>
+    <description>Odoo Field Attr.translate</description>
 </snippet>
