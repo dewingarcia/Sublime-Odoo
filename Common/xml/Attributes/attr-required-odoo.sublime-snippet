@@ -1,10 +1,8 @@
 <!-- Odoo XML Snippets -->
 
 <snippet>
-    <content><![CDATA[
-'required': [('${1:field_name}', '${2:=}', ${3:False})]
-]]></content>
-    <tabTrigger>required-in-attrs</tabTrigger>
+    <content><![CDATA[required='1']]></content>
+    <tabTrigger>required</tabTrigger>
     <scope>text.xml</scope>
-    <description>attrs Base</description>
+    <description>required=1</description>
 </snippet>

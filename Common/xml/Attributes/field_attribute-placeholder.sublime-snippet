@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+placeholder="${1:AnyText}"$0
+]]></content>
+    <tabTrigger>placeholder</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Field Attr.placeholder</description>
+</snippet>

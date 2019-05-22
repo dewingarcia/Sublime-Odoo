@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+position='${1:after/before/replace/inside/attributes/delete}${1/(a$)|(af$)|(aft$)|(b$)|(be$)|(bef$)|(r$)|(re$)|(rep$)|(repl$)|(repla$)|(replac$)|(i$)|(in$)|(ins$)|(insi$)|(insid$)|(a$)|(at$)|(att$)|(attr$)|(attri$)|(attrib$)|(attribu$)|(attribut$)|(attribute$)|(d$)|(de$)|(del$)|(dele$)|.*/?1:fter:?2:ter:?3:er:?4:efore:?5:fore:?6:ore:?7:eplace:?8:place:?9:lace:?10:ace:?11:ce:?12:e:?13:nside:?14:side:?15:ide:?16:de:?17:e:?18:ttributes:?19:tributes:?20:ributes:?21:ibutes:?22:butes:?23:utes:?24:tes:?25:es:?26:s:?27:elete:?28:lete:?29:ete:?30:te/i}'$0
+]]></content>
+    <tabTrigger>position</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Field Attr.position</description>
+</snippet>

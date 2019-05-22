@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<field name='${1:field_name}' position='${2:after}'$0 >
+</field>
+]]></content>
+    <tabTrigger>field-position</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo field with Position</description>
+</snippet>

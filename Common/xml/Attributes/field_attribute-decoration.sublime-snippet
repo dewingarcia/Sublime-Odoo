@@ -1,0 +1,16 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+decoration-${1:success/info/warning/primary/muted/danger}${1/(i$)|(in$)|(inf$)|
+(m$)|(mu$)|(mut$)|(mute$)|
+(w$)|(wa$)|(war$)|(warn$)|(warni$)|(warnin$)|
+(s$)|(su$)|(suc$)|(succ$)|(succe$)|(succes$)|
+(p$)|(pr$)|(pri$)|(prim$)|(prima$)|(primar$)|
+(d$)|(da$)|(dan$)|(dang$)|(dange$)
+|.*/?1:nfo:?2:fo:?3:o:?4:uted:?5:ted:?6:ed:?7:d:?8:arning:?9:rning:?10:ning:?11:ing:?12:ng:?13:g:?14:uccess:?15:ccess:?16:cess:?17:ess:?18:ss:?19:s:?20:rimary:?21:imary:?22:mary:?23:ary:?24:ry:?25:y:?26:anger:?27:nger:?28:ger:?29:er:?30:r/i}="${2:field_name}${3:=}${4:True}"$0
+]]></content>
+    <tabTrigger>decoration</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Field Attr.decoration</description>
+</snippet>

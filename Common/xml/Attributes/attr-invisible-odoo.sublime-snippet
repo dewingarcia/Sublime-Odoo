@@ -6,5 +6,5 @@ invisible='1'
 ]]></content>
     <tabTrigger>invisible</tabTrigger>
     <scope>text.xml</scope>
-    <description>attrs Base</description>
+    <description>invisible=1</description>
 </snippet>

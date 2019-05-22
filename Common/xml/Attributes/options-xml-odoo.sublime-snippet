@@ -1,0 +1,8 @@
+<!-- Odoo XML Snippets -->
+
+<snippet>
+    <content><![CDATA[options="{${1:'no_create': True, }${2:'no_open': True, }${3:'always_reload': True, }${4:'no_quick_create': True}}"]]></content>
+    <tabTrigger>options</tabTrigger>
+    <scope>text.xml</scope>
+    <description>options</description>
+</snippet>
